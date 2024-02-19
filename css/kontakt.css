@@ -1,0 +1,109 @@
+#hem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1px;
+    grid-column-gap: 1px;
+    min-height: 100px;
+    margin: auto;
+    width: 95%;
+    grid-template-areas: 
+    'hd hd hd'
+    'na na na'
+    'ma ma ma'
+    'fo fo fo'
+    ;
+    /* display: flex; */
+}
+
+header {
+    grid-area: hd;
+    background-color: #ff0000;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    grid-area: na;
+    background-color: #00ff2f;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+/* nav ul li {
+    list-style: none;
+} */
+
+nav ul li a {
+    /* color: #000000; 
+    text-decoration: none; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    grid-area: ma;
+    background-color: #00fffb;
+}
+
+main aside {
+    background-color: #c088ff;
+    margin: 1rem;
+    display: flex;
+}
+
+main aside ul li {
+    margin: 1rem;
+}
+
+main section {
+    background-color: #ffec44;
+    margin: 1rem;
+    display: flex;
+}
+
+main section a {
+    margin: 0.5rem;
+}
+
+footer{
+    grid-area: fo;
+    background-color: #ea6ed3;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer ul {
+    display: flex;
+} */
+
+/* footer ul li {
+    list-style: none;
+} */
+
+/* footer ul li a {
+    color: #000000; 
+    text-decoration: none;
+} */
+
+@media screen and (max-width:500px) {
+
+    nav {
+        justify-content: center;
+    }
+}
