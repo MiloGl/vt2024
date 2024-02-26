@@ -57,10 +57,10 @@ ul li a {
 }
 
 main {
-    max-height: 75%;
+    /* max-height: 75%; */
     grid-area: ma;
     background-color: #ffda21;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 main section {
@@ -69,6 +69,10 @@ main section {
     display: flex;
     justify-content: left;
     margin: 1rem;
+}
+
+main section img {
+    max-width: 150px;
 }
 
 main section img {
@@ -106,7 +110,7 @@ footer{
     }
 
     main {
-        max-height: 75%;
+        /* max-height: 75%; */
         /* display: grid;
         grid-template-areas: 
         '. I .'

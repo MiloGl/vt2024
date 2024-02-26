@@ -12,6 +12,7 @@
     'ma ma ma'
     'fo fo fo'
     ;
+    /* display: flex; */
 }
 
 header {
@@ -19,17 +20,90 @@ header {
     background-color: #ff0000;
 }
 
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+
 nav {
     grid-area: na;
     background-color: #00ff2f;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+/* nav ul li {
+    list-style: none;
+} */
+
+nav ul li a {
+    /* color: #000000; 
+    text-decoration: none; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #000000;
+    text-decoration: none;
 }
 
 main {
     grid-area: ma;
     background-color: #00fffb;
+    display: grid;
+    grid-template-areas: 
+    'as as . .'
+    'se se se se'
+    ;
+}
+
+/* main aside {
+    grid-area: as;
+    background-color: #c088ff;
+} */
+
+main aside img {
+    max-width: 20%;
+    margin: 2%;
+}
+
+main section {
+    grid-area: se;
+    background-color: #ffec44;
 }
 
 footer{
     grid-area: fo;
-    background-color: #ff00d0;
+    background-color: #ea6ed3;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer ul {
+    display: flex;
+} */
+
+/* footer ul li {
+    list-style: none;
+} */
+
+/* footer ul li a {
+    color: #000000; 
+    text-decoration: none;
+} */
+
+@media screen and (max-width:500px) {
+
+    nav {
+        justify-content: center;
+    }
 }
