@@ -17,7 +17,7 @@
 
 header {
     grid-area: hd;
-    background-color: #ff0000;
+    background-color: #8C503A;
 }
 
 header h1 {
@@ -27,7 +27,7 @@ header h1 {
 
 nav {
     grid-area: na;
-    background-color: #00ff2f;
+    background-color: #023E73;
     display: flex;
     justify-content: center;
 }
@@ -52,19 +52,19 @@ ul li {
 }
 
 ul li a {
-    color: #000000;
+    color: #D9CCC1;
     text-decoration: none;
 }
 
 main {
     /* max-height: 75%; */
     grid-area: ma;
-    background-color: #ffda21;
+    background-color: #BF6415;
     /* overflow: scroll; */
 }
 
 main section {
-    background-color: #86c8ff;
+    background-color: #BF6415;
     max-width: 60%;
     display: flex;
     justify-content: left;
@@ -85,10 +85,14 @@ main section aside {
 
 footer{
     grid-area: fo;
-    background-color: #ea6ed3;
+    background-color: #024059;
     display: flex;
     justify-content: space-around;
 }
+
+/* footer section ul li a {
+    color: #D9CCC1;
+} */
 
 /* footer ul {
     display: flex;

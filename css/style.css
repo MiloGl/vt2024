@@ -17,7 +17,7 @@
 
 header {
     grid-area: hd;
-    background-color: #ff0000;
+    background-color: #8C503A;
 }
 
 header h1 {
@@ -27,7 +27,7 @@ header h1 {
 
 nav {
     grid-area: na;
-    background-color: #00ff2f;
+    background-color: #023E73;
     display: flex;
     justify-content: center;
 }
@@ -58,7 +58,7 @@ ul li a {
 
 main {
     grid-area: ma;
-    background-color: #00fffb;
+    background-color: #BF6415;
     display: grid;
     grid-template-areas: 
     'as as . .'
@@ -78,12 +78,12 @@ main aside img {
 
 main section {
     grid-area: se;
-    background-color: #ffec44;
+    background-color: #BF6415;
 }
 
 footer{
     grid-area: fo;
-    background-color: #ea6ed3;
+    background-color: #024059;
     display: flex;
     justify-content: space-around;
 }
