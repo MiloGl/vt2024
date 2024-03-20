@@ -17,7 +17,7 @@
 
 header {
     grid-area: hd;
-    background-color: #8C503A;
+    background-color: #F5EBDE;
 }
 
 header h1 {
@@ -27,7 +27,7 @@ header h1 {
 
 nav {
     grid-area: na;
-    background-color: #023E73;
+    background-color: #7F8878;
     display: flex;
     justify-content: center;
 }
@@ -58,11 +58,11 @@ ul li a {
 
 main {
     grid-area: ma;
-    background-color: #BF6415;
+    background-color: #DBD6C7;
 }
 
 main aside {
-    background-color: #BF6415;
+    background-color: #DBD6C7;
     margin: 1rem;
     display: flex;
 }
@@ -72,7 +72,7 @@ main aside ul li {
 }
 
 main section {
-    background-color: #BF6415;
+    background-color: #DBD6C7;
     margin: 1rem;
     display: flex;
     display: grid;
@@ -96,7 +96,7 @@ main section a {
 
 footer{
     grid-area: fo;
-    background-color: #024059;
+    background-color: #737A62;
     display: flex;
     justify-content: space-around;
 }

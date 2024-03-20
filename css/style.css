@@ -17,7 +17,7 @@
 
 header {
     grid-area: hd;
-    background-color: #8C503A;
+    background-color: #F5EBDE;
 }
 
 header h1 {
@@ -27,9 +27,10 @@ header h1 {
 
 nav {
     grid-area: na;
-    background-color: #023E73;
+    background-color: #7F8878;
     display: flex;
     justify-content: center;
+
 }
 
 nav ul {
@@ -58,12 +59,23 @@ ul li a {
 
 main {
     grid-area: ma;
-    background-color: #BF6415;
-    display: grid;
-    grid-template-areas: 
-    'as as . .'
-    'se se se se'
-    ;
+    background-color: #DBD6C7;
+
+}
+
+main img {
+    margin: 2%;
+    max-width: 25%;
+    float: left;
+}
+
+main h2 {
+    display: flex;
+    justify-content: center;
+}
+
+main a {
+    margin: 2%;
 }
 
 /* main aside {
@@ -71,19 +83,20 @@ main {
     background-color: #c088ff;
 } */
 
-main aside img {
-    max-width: 20%;
-    margin: 2%;
-}
+/* main aside img {
+    margin: 8%;
+    max-width: 85%;
+} */
 
-main section {
+/* main section {
+    margin: 2%;
     grid-area: se;
-    background-color: #BF6415;
-}
+    background-color: #DBD6C7;
+} */
 
 footer{
     grid-area: fo;
-    background-color: #024059;
+    background-color: #737A62;
     display: flex;
     justify-content: space-around;
 }
