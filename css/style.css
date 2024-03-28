@@ -1,16 +1,38 @@
 header {
     grid-area: hd;
     background-color: #F5EBDE;
-}
-
-header h1 {
     display: flex;
     justify-content: center;
 }
 
+h1 {
+    color: #2D2E27;
+}
+
+h2 {
+    color: #2D2E27;
+}
+
+p {
+    color: #2D2E27;
+}
+
+a {
+    min-height: 48px;
+    min-width: 48px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
 nav {
     grid-area: na;
-    background-color: #7F8878;
+    background-color: #aab2a1;
     display: flex;
     justify-content: center;
 }
@@ -20,14 +42,49 @@ nav ul {
 }
 
 nav ul li a {
-    /* color: #000000; 
-    text-decoration: none; */
+    color: #2D2E27; 
+    text-decoration: none;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
+main {
+    background-color: #DBD6C7;
+    display: flex;
+    flex-direction: column;
+}
 
-#hem1 {
+main h2{
+    color: #2D2E27;
+}
+
+main h4 {
+    color: #2D2E27;
+}
+
+main p {
+    color: #2D2E27;
+    margin: 2%;
+}
+
+footer{
+    grid-area: fo;
+    background-color: #505544;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer section h3 {
+    color: #F5EBDE;
+}
+
+footer section ul li a {
+    color: #F5EBDE;
+}
+
+
+
+#hem div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 1px;
@@ -48,34 +105,34 @@ nav ul li a {
     list-style: none;
 } */
 
-#hem1 ul li {
+/* #hem ul li {
     list-style: none;
-}
+} */
 
-#hem1 ul li a {
+/* #hem ul li a {
     color: #000000;
     text-decoration: none;
-}
+} */
 
-#mahem {
+#hem main {
     grid-area: mal;
-    background-color: #DBD6C7;
+    /* background-color: #DBD6C7; */
 }
 
-#mahem h2 {
+#hem main h2 {
     display: flex;
     justify-content: center;
 }
 
-#mahem img {
+#hem main img {
     margin: 2%;
     max-width: 22%;
     float: left;
 }
 
-#mahem p {
+/* #hem main p {
     margin: 2%;
-}
+} */
 
 /* main aside {
     grid-area: as;
@@ -93,12 +150,12 @@ nav ul li a {
     background-color: #DBD6C7;
 } */
 
-footer{
+/* footer{
     grid-area: fo;
     background-color: #737A62;
     display: flex;
     justify-content: space-around;
-}
+} */
 
 /* footer ul {
     display: flex;
@@ -123,7 +180,7 @@ footer{
                         ________________________
 
 
-    #hem3 {
+    #kontakta div {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-row-gap: 1px;
@@ -172,51 +229,75 @@ footer{
         margin-right: 1rem;
     } */
     
-    #hem3 ul li {
+    /* #kontakta ul li {
         list-style: none;
-    }
+    } */
     
-    #hem3 ul li a {
+    /* #kontakta ul li a {
         color: #000000;
         text-decoration: none;
-    }
+    } */
     
-    #makontakta {
+    #kontakta main {
         grid-area: malll;
-        background-color: #DBD6C7;
+        /* background-color: #DBD6C7; */
+    }
+
+    #kontakta main h2 {
+        margin-left: 5%;
     }
     
-    #makontakta aside {
-        background-color: #DBD6C7;
-        margin: 1rem;
+    #kontakta main aside {
+        /* background-color: #DBD6C7; */
+        margin-bottom: 1rem;
         display: flex;
     }
     
-    #makontakta aside ul li {
+    #kontakta main aside ul li {
         margin: 1rem;
     }
+
+    #kontakta main aside ul li a {
+        color: #2D2E27;
+    }
     
-    #makontakta section {
-        background-color: #DBD6C7;
-        margin: 1rem;
+    #kontakta main section {
+        /* background-color: #DBD6C7; */
+        margin: 3%;
         display: flex;
         display: grid;
         grid-template-areas: 
+        'sp sp sp'
         'll ll ll'
+        'hj hj hj'
         'l l l'
         ;
     }
     
-    #makontakta section a {
-        margin: 0.5rem;
+    #kontakta main section p {
+        margin-left: 2rem;
+    }
+
+    #kontakta main section h2 {
+        margin-left: 2%;
     }
     
     #l {
         grid-area: l;
+        margin-bottom: 5%;
     }
     
     #ll {
         grid-area: ll;
+        margin-bottom: 30px;
+    }
+
+    #sp {
+        grid-area: sp;
+    }
+
+    #hj {
+        grid-area: hj;
     }
     
     /* footer{
@@ -244,11 +325,13 @@ footer{
         nav {
             justify-content: center;
         }
+
+
     }
 
                     _______________________
 
-    #hem2 {
+    #affar div {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-row-gap: 1px;
@@ -297,23 +380,23 @@ footer{
         margin-right: 1rem;
     } */
     
-    #hem2 ul li {
+    /* #affar ul li {
         list-style: none;
-    }
+    } */
     
-    #hem2 ul li a {
+    /* #affar ul li a {
         color: #D9CCC1;
         text-decoration: none;
-    }
+    } */
     
-    #maaffar {
+    #affar main {
         /* max-height: 75%; */
         grid-area: mall;
-        background-color: #DBD6C7;
+        /* background-color: #DBD6C7; */
         /* overflow: scroll; */
     }
     
-    #maaffar section {
+    #affar main section {
         background-color: #DBD6C7;
         max-width: 60%;
         display: flex;
@@ -321,12 +404,12 @@ footer{
         margin: 1rem;
     }
     
-    #maaffar section img {
+    #affar main section img {
         max-width: 150px;
         margin: 0.3rem;
     }
     
-    #maaffar section aside {
+    #affar main section aside {
         margin: 0.3rem;
     }
     
@@ -360,7 +443,7 @@ footer{
             justify-content: center;
         }
     
-        main {
+        #affar main {
             /* max-height: 75%; */
             /* display: grid;
             grid-template-areas: 
